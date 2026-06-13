@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mening Portfoliom | Shaxsiy Sayt</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="logo">
+      <a href="./index.html">
+        <img width="150" src="./files/abduraxmon.svg" alt="Site logo" />
+      </a>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Men haqimda</a></li>
+      <li><a href="#family">Oilam</a></li>
+      <li><a href="#classmates">Guruhdoshlar</a></li>
+      <li><a href="#projects">Loyihalar</a></li>
+      <li><a href="#contact">Aloqa</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="particles" id="particles"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Yangi loyihalarga tayyor
+      </div>
+      <h1 class="hero-title">
+        Salom, men<br />
+        <span>Abduraxmon</span> — men
+      </h1>
+      <div class="typewriter-wrap">
+        <span id="typewriter"></span><span class="cursor"></span>
+      </div>
+      <p class="hero-desc">
+        Zamonaviy veb-ilovalar va dasturiy yechimlar yaratishga ixtisoslashgan
+        yoshdashlik dasturchiman. Kodim bilan muammolarni hal qilaman,
+        g'oyalarni hayotga keltiraman.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary"><i class="fas fa-rocket"></i> Loyihalarni ko'rish</a>
+        <a href="#contact" class="btn-outline"><i class="fas fa-envelope"></i> Bog'lanish</a>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img class="my" src="./ozim.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-num" data-count="15">0</span><span class="stat-label">Tugallangan loyiha</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="3">0</span><span class="stat-label">Yil tajriba</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="8">0</span><span class="stat-label">Texnologiyalar</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="100">0</span><span class="stat-label">% Mas'uliyat</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="reveal">
+      <p class="section-eyebrow">Kim men?</p>
+      <h2 class="section-title">Men <span>haqimda</span></h2>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-img-wrap">
+        <img class="my" src="./ozim.png" alt="Mening rasmim" />
+      </div>
+      <div class="about-text">
+        <h3>Abduraxmon Rasulov</h3>
+        <p>
+          Men — zamonaviy veb texnologiyalari bilan ishlashni yaxshi
+          ko'radigan, haqiqiy muammolarga real yechimlar topishga intiluvchi
+          dasturchi. Toshkent Axborot Texnologiyalar Universitetida tahsil
+          olaman.
+        </p>
+        <p>
+          Frontend va backend texnologiyalarini birlashtirib,
+          foydalanuvchilarga qulay, tezkor va chiroyli ilovalar yarataman.
+          Hamisha o'rganish va o'sishga tayyor bo'laman.
+        </p>
+        <p>
+          Bo'sh vaqtimda yangi texnologiyalarni o'rganaman, ochiq manba
+          loyihalariga hissa qo'shaman va sport bilan shug'ullanaman.
+        </p>
+
+        <div class="skills-grid">
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMILY -->
+  <section id="family">
+    <div class="reveal">
+      <p class="section-eyebrow">Mening eng katta boyligim</p>
+      <h2 class="section-title">Oila <span>a'zolarim</span></h2>
+    </div>
+
+    <div class="family-list">
+      <!-- Otam -->
+      <div class="family-item reveal">
+        <div class="family-img family-img-grad-1">
+          <div class="family-img-overlay"></div>
+          <span class="family-emoji">
+            <img class="my" src="https://boisterous-haupia-4d2e6e.netlify.app/Otam.png" alt="Otam image" />
+          </span>
+        </div>
+        <div class="family-info">
+          <div class="family-relation">Otam</div>
+          <div class="family-name">Rasulov Rustam</div>
+          <div class="family-role-badge">
+            <i class="fas fa-hard-hat"></i> Mexanik · Oila boshlig'i 39 yoshda
+          </div>
+          <div class="family-desc">
+            Menga kuch, qat'iyat va maqsad sari intilishni o'rgatgan, har doim
+            orqamda turgan eng ishonchli insonim. Texnikaga bo'lgan
+            muhabbatimni adamdan oldim — adam mening birinchi ustozim.
+          </div>
+          <div class="family-quote">
+            "Qiyin yo'lni tanlagan odam — qo'rqmas bo'lib o'sadi."
+          </div>
+        </div>
+      </div>
+
+      <!-- Onam -->
+      <div class="family-item reverse reveal">
+        <div class="family-img family-img-grad-2">
+          <div class="family-img-overlay"></div>
+          <span class="family-emoji">
+            <img class="my" src="https://boisterous-haupia-4d2e6e.netlify.app/Onam.png" alt="Onam image" />
+          </span>
+        </div>
+        <div class="family-info">
+          <div class="family-relation">Onam</div>
+          <div class="family-name">Rasulova Dilnoza</div>
+          <div class="family-role-badge">
+            <i class="fas fa-chalkboard-teacher"></i> Hamshira · 37 yoshda
+          </div>
+          <div class="family-desc">
+            Sabr, mehribonlik va bilimga muhabbatni o'rgatdi. Birinchi
+            kitobimni u sovg'a qilgan — o'sha kitob dunyomni o'zgartirdi. Har
+            bir muvaffaqiyatim ortida uning duosi bor.
+          </div>
+          <div class="family-quote">"O'qigan — o'zini topgan."</div>
+        </div>
+      </div>
+
+      <!-- Ukam -->
+      <div class="family-item reveal">
+        <div class="family-img family-img-grad-3">
+          <div class="family-img-overlay"></div>
+          <span class="family-emoji">
+            <img class="my" src="https://boisterous-haupia-4d2e6e.netlify.app/Ukam.png" alt="Ukam" />
+          </span>
+        </div>
+        <div class="family-info">
+          <div class="family-relation">Ukam</div>
+          <div class="family-name">Musayev Muhammad</div>
+          <div class="family-role-badge">
+            <i class="fas fa-graduation-cap"></i> 6 yoshda 2020-yil 11-sentyabrda
+            tugilgan
+          </div>
+          <div class="family-desc">
+            Mening birinchi "foydalanuvchim" — men yaratgan ilovalarni ilk bor
+            u sinab ko'radi. Uning savollari meni yanada yaxshiroq
+            tushuntirishga va soddaroq yozishga undaydi.
+          </div>
+          <div class="family-quote">
+            "Aka, bu nima qiladi?" — mening sevimli savolim.
+          </div>
+        </div>
+      </div>
+
+      <!-- Bobom -->
+      <div class="family-item reveal">
+        <div class="family-img family-img-grad-5">
+          <div class="family-img-overlay"></div>
+          <span class="family-emoji">
+            <img class="my" src="./images/Dodam.png" alt="">
+          </span>
+        </div>
+        <div class="family-info">
+          <div class="family-relation">Bobom</div>
+          <div class="family-name">Dilmurod Musayev</div>
+          <div class="family-role-badge">
+            <i class="fas fa-book-open"></i> Yakka tartibdagi tadbirkor
+          </div>
+          <div class="family-desc">
+            Donolik, tajriba va hayot falsafasini ulashadi. 45 yillik sartaroshlik tajribasi bor. Ularni ishlariga doyim
+            hayron qolganman.
+          </div>
+          <div class="family-quote">"Sabr qilgan — maqsadiga yetgan."</div>
+        </div>
+      </div>
+
+      <!-- Buvim -->
+      <div class="family-item reverse reveal">
+        <div class="family-img family-img-grad-6">
+          <div class="family-img-overlay"></div>
+          <span class="family-emoji">
+            <img class="my" src="./images/Buvim.png" alt="">
+          </span>
+        </div>
+        <div class="family-info">
+          <div class="family-relation">Buvim</div>
+          <div class="family-name">Dildora Musayeva</div>
+          <div class="family-role-badge">
+            <i class="fas fa-heart"></i> Uy bekasi · Jonimning nuri
+          </div>
+          <div class="family-desc">
+            Uning issiq sho'rvasiz va mehribon tabassumsiz hech bir loyiha
+            yaratilmagan. Uyimning quyoshi, qalbimning tinchligi. Duosi hech
+            qadam meni tark etmaydi.
+          </div>
+          <div class="family-quote">
+            "Uyga qaytganda, hamma narsa joyida bo'ladi."
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASSMATES -->
+  <section id="classmates">
+    <div class="reveal">
+      <p class="section-eyebrow">Kelajakni birga quramiz</p>
+      <h2 class="section-title">Guruh<span>doshlarim</span></h2>
+    </div>
+
+    <div class="carousel-outer reveal">
+      <div class="carousel-track-wrap">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/IMG_3191.png" alt=""></div>
+            <div class="classmate-name">Jasurbek</div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/IMG_3193.png" alt=""></div>
+            <div class="classmate-name">Umar</div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/IMG_3194.png" alt=""></div>
+            <div class="classmate-name">Muhammadsodiq Karimov</div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/shoxrux.png" alt=""></div>
+            <div class="classmate-name">Shohrux</div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/IMG_3202.png" alt=""></div>
+            <div class="classmate-name">Bekzod</div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+          <div class="classmate-card">
+            <div class="classmate-avatar"><img class="my" src="./images/IMG_3203.png" alt=""></div>
+            <div class="classmate-name"></div>
+            <div class="classmate-spec">Fronted . Backend</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="carouselPrev" onclick="carouselMove(-1)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn" id="carouselNext" onclick="carouselMove(1)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="reveal">
+      <p class="section-eyebrow">Nima qurdim?</p>
+      <h2 class="section-title">Mening <span>loyihalarim</span></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-1">
+          <img class="my" src="https://boisterous-haupia-4d2e6e.netlify.app/loq.png" alt="First website" />
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span><span class="project-tag">CSS</span>
+          </div>
+          <div class="project-title">Sushi website</div>
+          <div class="project-desc">
+            Ozingizga yoqqan sushilarni meni ushbu websiteimdan sotib olishiz
+            mumkin.
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-2">
+          <img src="https://boisterous-haupia-4d2e6e.netlify.app/loyiha-3.png" alt="" class="my" />
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span><span class="project-tag">CSS</span><span
+              class="project-tag">Animation</span>
+          </div>
+          <div class="project-title">Bouble animation</div>
+          <div class="project-desc">
+            Bouble animation website siz ushbu websaytim orqali ajoyib
+            animationlarni kora olasiz.
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-3">
+          <img src="https://boisterous-haupia-4d2e6e.netlify.app/loyi.png" alt="" class="my" />
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag"></span><span class="project-tag">CSS</span>
+          </div>
+          <div class="project-title">Servis hizmati</div>
+          <div class="project-desc">
+            Servis hizmati websaytim ozizga maqul bolgan servis turlari haqida
+            malumot ola olasizlar
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-4">💬</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Socket.io</span><span class="project-tag">React</span><span
+              class="project-tag">Express</span>
+          </div>
+          <div class="project-title">Real-time Chat Ilovasi</div>
+          <div class="project-desc">
+            WebSocket asosidagi tezkor chat. Xonalar, fayllar yuborish, emoji
+            va foydalanuvchi holati ko'rsatish funksiyalari.
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-5">📊</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span><span class="project-tag">Django</span><span
+              class="project-tag">Chart.js</span>
+          </div>
+          <div class="project-title">Moliya Kuzatuv Tizimi</div>
+          <div class="project-desc">
+            Shaxsiy moliyani boshqarish uchun vosita. Grafik statistika,
+            kategoriyalar, byudjet va to'lov tarixlari.
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb thumb-6">🤖</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span><span class="project-tag">Telegram API</span><span
+              class="project-tag">SQLite</span>
+          </div>
+          <div class="project-title">Telegram Bot</div>
+          <div class="project-desc">
+            O'quv guruhi uchun Telegram bot. Jadval, vazifalar, eslatmalar va
+            admin boshqaruv paneli o'z ichiga oladi.
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Ko'rish</a>
+            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Kod</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="reveal">
+      <p class="section-eyebrow">Gaplashaylik</p>
+      <h2 class="section-title">Men bilan <span>bog'lanish</span></h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info reveal">
+        <h3>Aloqaga chiqing</h3>
+        <p>
+          Yangi loyiha, hamkorlik yoki shunchaki salom demoqchi bo'lsangiz —
+          xabar yuboring! 24 soat ichida javob beraman.
+        </p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">abduraxmon@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-telegram"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Telegram</span>
+              <span class="contact-value">@thenotorioustk</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Telefon</span>
+              <span class="contact-value">+998 93 579 30 60</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-label">Manzil</span>
+              <span class="contact-value">Toshkent, O'zbekiston</span>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="contact-form">
+          <div class="form-group">
+            <label>Ismingiz</label>
+            <input type="text" id="fname" placeholder="Ismingizni kiriting..." />
+          </div>
+          <div class="form-group">
+            <label>Email manzilingiz</label>
+            <input type="email" id="femail" placeholder="email@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Mavzu</label>
+            <input type="text" id="fsubject" placeholder="Xabar mavzusi..." />
+          </div>
+          <div class="form-group">
+            <label>Xabaringiz</label>
+            <textarea id="fmessage" placeholder="Xabaringizni yozing..."></textarea>
+          </div>
+          <button class="btn-send" onclick="sendMessage()">
+            <i class="fas fa-paper-plane"></i> Xabar yuborish
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      © 2025 <span>Abduraxmon Rasulov</span>. Barcha huquqlar himoyalangan. ❤️
+      Toshkent, O'zbekiston
+    </p>
+  </footer>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Xabaringiz muvaffaqiyatli yuborildi!</div>
+
+  <script>
+    // ── PARTICLES ──
+    const container = document.getElementById("particles");
+    for (let i = 0; i < 28; i++) {
+      const p = document.createElement("div");
+      p.className = "particle";
+      const size = Math.random() * 4 + 2;
+      p.style.cssText = `
+      width:${size}px;height:${size}px;
+      left:${Math.random() * 100}%;
+      animation-duration:${8 + Math.random() * 14}s;
+      animation-delay:${Math.random() * 12}s;
+      background:${Math.random() > 0.5 ? "#4f8ef7" : "#a259ff"};
+    `;
+      container.appendChild(p);
+    }
+
+    // ── TYPEWRITER ──
+    const roles = ["Frontend Developer"];
+    let rIdx = 0,
+      cIdx = 0,
+      deleting = false;
+    const tw = document.getElementById("typewriter");
+    function type() {
+      const word = roles[rIdx];
+      tw.textContent = deleting
+        ? word.slice(0, --cIdx)
+        : word.slice(0, ++cIdx);
+      if (!deleting && cIdx === word.length) {
+        setTimeout(() => (deleting = true), 1800);
+      } else if (deleting && cIdx === 0) {
+        deleting = false;
+        rIdx = (rIdx + 1) % roles.length;
+      }
+      setTimeout(type, deleting ? 60 : 110);
+    }
+    type();
+
+    // ── SCROLL REVEAL ──
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.12 },
+    );
+    document
+      .querySelectorAll(".reveal")
+      .forEach((el) => observer.observe(el));
+
+    // ── COUNT UP ──
+    const countObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting && !e.target.dataset.done) {
+            e.target.dataset.done = true;
+            const target = +e.target.dataset.count;
+            let cur = 0;
+            const step = Math.ceil(target / 50);
+            const t = setInterval(() => {
+              cur = Math.min(cur + step, target);
+              e.target.textContent =
+                cur + (e.target.dataset.count === "100" ? "+" : "+");
+              if (cur >= target) clearInterval(t);
+            }, 30);
+          }
+        });
+      },
+      { threshold: 0.5 },
+    );
+    document
+      .querySelectorAll(".stat-num")
+      .forEach((el) => countObserver.observe(el));
+
+    // ── HAMBURGER ──
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("open");
+    }
+
+    // ── NAV CLOSE ON LINK CLICK ──
+    document.querySelectorAll(".nav-links a").forEach((a) => {
+      a.addEventListener("click", () =>
+        document.getElementById("navLinks").classList.remove("open"),
+      );
+    });
+
+    // ── FORM SEND ──
+    function sendMessage() {
+      const name = document.getElementById("fname").value.trim();
+      const email = document.getElementById("femail").value.trim();
+      if (!name || !email) {
+        alert("Iltimos, ism va emailni kiriting!");
+        return;
+      }
+      const toast = document.getElementById("toast");
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 3500);
+      ["fname", "femail", "fsubject", "fmessage"].forEach(
+        (id) => (document.getElementById(id).value = ""),
+      );
+    }
+
+    // ── CAROUSEL ──
+    (function () {
+      const track = document.getElementById("carouselTrack");
+      const dotsWrap = document.getElementById("carouselDots");
+      const cards = track.querySelectorAll(".classmate-card");
+      const total = cards.length;
+      let current = 0;
+
+      function visibleCount() {
+        const w = track.parentElement.offsetWidth;
+        if (w < 480) return 1;
+        if (w < 720) return 2;
+        if (w < 1000) return 3;
+        if (w < 1280) return 4;
+        return 5;
+      }
+
+      function pageCount() {
+        return Math.ceil(total / visibleCount());
+      }
+
+      function buildDots() {
+        dotsWrap.innerHTML = "";
+        for (let i = 0; i < pageCount(); i++) {
+          const d = document.createElement("div");
+          d.className = "carousel-dot" + (i === current ? " active" : "");
+          d.onclick = () => goTo(i);
+          dotsWrap.appendChild(d);
+        }
+      }
+
+      function goTo(page) {
+        current = Math.max(0, Math.min(page, pageCount() - 1));
+        const vc = visibleCount();
+        const cardW = cards[0].offsetWidth + 20;
+        track.style.transform = `translateX(-${current * vc * cardW}px)`;
+        buildDots();
+        document.getElementById("carouselPrev").disabled = current === 0;
+        document.getElementById("carouselNext").disabled =
+          current >= pageCount() - 1;
+      }
+
+      window.carouselMove = function (dir) {
+        goTo(current + dir);
+      };
+
+      buildDots();
+      goTo(0);
+
+      // Touch/drag support
+      let startX = 0;
+      track.addEventListener(
+        "touchstart",
+        (e) => (startX = e.touches[0].clientX),
+        { passive: true },
+      );
+      track.addEventListener("touchend", (e) => {
+        const diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) carouselMove(diff > 0 ? 1 : -1);
+      });
+
+      window.addEventListener("resize", () => {
+        buildDots();
+        goTo(0);
+      });
+    })();
+
+    const sections = document.querySelectorAll("section[id]");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach((s) => {
+        if (window.scrollY >= s.offsetTop - 120) current = s.id;
+      });
+      document.querySelectorAll(".nav-links a").forEach((a) => {
+        a.style.color =
+          a.getAttribute("href") === "#" + current ? "#4f8ef7" : "";
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f8ef7"/>
+      <stop offset="100%" stop-color="#a259ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" rx="24" fill="#070d1a"/>
+  <rect x="0" y="0" width="300" height="4" rx="2" fill="url(#g1)"/>
+  <rect x="20" y="20" width="260" height="260" rx="20" fill="none" stroke="#4f8ef7" stroke-width="0.8" opacity="0.3"/>
+  <!-- Diamond gem facets -->
+  <polygon points="150,50 238,140 150,230 62,140" fill="#0d1528" stroke="#4f8ef7" stroke-width="2"/>
+  <polygon points="150,50 238,140 150,140"  fill="#0f1e3a" stroke="#4f8ef7" stroke-width="0.7"/>
+  <polygon points="150,50  62,140 150,140"  fill="#070d1a" stroke="#4f8ef7" stroke-width="0.7"/>
+  <polygon points=" 62,140 150,230 150,140" fill="#0a1525" stroke="#4f8ef7" stroke-width="0.7"/>
+  <polygon points="238,140 150,230 150,140" fill="#0d1c35" stroke="#4f8ef7" stroke-width="0.7"/>
+  <!-- horizontal equator line -->
+  <line x1="62" y1="140" x2="238" y2="140" stroke="#4f8ef7" stroke-width="1.2" opacity="0.55"/>
+  <!-- corner dots -->
+  <circle cx="150" cy="50"  r="4" fill="#4f8ef7"/>
+  <circle cx="238" cy="140" r="4" fill="#a259ff"/>
+  <circle cx="150" cy="230" r="4" fill="#4f8ef7"/>
+  <circle cx="62"  cy="140" r="4" fill="#a259ff"/>
+  <!-- J -->
+  <text font-family="Poppins,Segoe UI,sans-serif" font-weight="800" font-size="58" fill="#4f8ef7" text-anchor="middle" dominant-baseline="central" x="150" y="176">J</text>
+  <!-- Name -->
+  <text font-family="Poppins,Segoe UI,sans-serif" font-weight="700" font-size="22" fill="#e8edf7" text-anchor="middle" letter-spacing="3" x="150" y="260">JAVOHIR</text>
+  <text font-family="Inter,Segoe UI,sans-serif" font-weight="600" font-size="11" fill="#4f8ef7" text-anchor="middle" letter-spacing="4" x="150" y="279">FRONTEND DEV</text>
+</svg>
